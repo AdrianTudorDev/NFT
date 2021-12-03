@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>NFT-sketcher</title>
+    <meta charset="UTF-8">
+    <meta name="desciption" content="Stevan Stojanović Mokranjac">
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript, History, music">
+    <meta name="author" content="Tudor Adrian">
+    <link rel="stylesheet" href="./style.css" /></link>
+    <script src="./app.js" charset="UTF-8"></script>
+    <script src="./html2canvas.min.js" ></script>
+</head>
+<body>
+    <header class="header">
+        <legend>Let's start, choose dimensions:</legend>
+        <button type="button" class="button32x32">32x32</button>
+        <button type="button" class="button64x64">64x64</button>
+        <button type="button" class="button64x64">96x96</button>
+    </header>
+    <main>
+        <div class="colors"></div>
+        <div class="size"></div>
+        <input type="color" class="custom-color"></input>
+        <button type="button" class="background">background</button>
+        <button type="button" class="clear">delete</button>
+    </main>
+    <footer>
+        <button type="button" class="save">Save NFT</button>
+        <div id="download">
+            <img id="canvas">
+            <a id="dl-link"></a>
+        </div>
+    </footer>   
+</body>
+</html>
